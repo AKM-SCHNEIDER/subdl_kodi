@@ -112,7 +112,9 @@ class SubtitlesProvider:
         return result["subtitles"] if result["subtitles"] else None
     
     def download_subtitle(self, query: dict):
-        download_link = "https://dl.subdl.com/" + query["file_id"]
+        # Remove leading slash from file_id if present to avoid double slash
+        file_id = query["file_id"].lstrip('/')
+        download_link = "https://dl.subdl.com/" + file_id
         res = self.session.get(download_link)
         res.raise_for_status()
 
