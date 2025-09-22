@@ -5,11 +5,11 @@
             <group id="1">
                 <setting id="TMDBApiKey" type="string">
                     <level>4</level>
-                    <default>c3475734910bdff3c5438b9e6db991ca</default>
+                    <default>4daa1f5e1a82cf45e027e54a25837449</default>
                 </setting>
                 <setting id="APIKey" type="string">
                     <level>4</level>
-                    <default>ihGUjWUZckyjq_MA7eOC0Kk6IMfhbB9O</default>
+                    <default>FZlhuiuvA6e8wlilp9cgv9-Ld5fIzCNQ</default>
                 </setting>
             </group>
         </category>
